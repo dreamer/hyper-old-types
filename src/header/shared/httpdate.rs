@@ -2,6 +2,7 @@ use std::fmt::{self, Display};
 use std::str::FromStr;
 use std::time::{Duration, SystemTime, UNIX_EPOCH};
 
+#[cfg(test)]
 use time;
 
 /// A timestamp with HTTP formatting and parsing
