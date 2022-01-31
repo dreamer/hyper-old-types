@@ -15,7 +15,6 @@ extern crate language_tags;
 #[macro_use] extern crate log;
 pub extern crate mime;
 #[macro_use] extern crate percent_encoding;
-extern crate time;
 extern crate unicase;
 
 #[cfg(all(test, feature = "nightly"))]
